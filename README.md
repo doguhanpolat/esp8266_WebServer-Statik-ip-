@@ -39,7 +39,7 @@ Next we need to add ESP8266WebServer, the only library we will use. `Draft > add
 ## Setting ESP8266 Static IP Address   
     
     IPAddress gateway(192, 168, 1, 1);                 // Default Gateway
-    IPAddress local_IP(192, 168, 1, 184);             // Static IP Address for ESP8266
+    IPAddress local_IP(192, 168, 1, 37);             // Static IP Address for ESP8266
     IPAddress subnet(255, 255, 0, 0);                // Subnet Mask
 
 **Important:** You need to use an available IP address in your local network and the corresponding gateway.
