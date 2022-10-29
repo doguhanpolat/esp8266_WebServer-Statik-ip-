@@ -15,7 +15,7 @@ const char* password = "/-polat9562/-";  // Replace with WiFi Password
 
 
 IPAddress gateway(192, 168, 1, 1);                  // Default Gateway
-IPAddress local_IP(192, 168, 1, 184);             // Static IP Address for ESP8266
+IPAddress local_IP(192, 168, 1, 37);             // Static IP Address for ESP8266
 IPAddress subnet(255, 255, 0, 0);                 // Subnet Mask
 
 ESP8266WebServer server(80); // Set web server port number to 80.
